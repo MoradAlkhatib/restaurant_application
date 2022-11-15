@@ -1,0 +1,4 @@
+user name: s 
+email: s 
+Password: s 
+Gender: male
