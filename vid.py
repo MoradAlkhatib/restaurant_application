@@ -11,7 +11,7 @@ while success:
     clock.tick(60)
     success, img = cap.read()
     for event in pygame.event.get():
-        if event.type == pygame.QUIT:
+        if event.type == pygame.QUIT:   
             success = False
     wn.blit(pygame.image.frombuffer(img.tobytes(), shape, "BGR"), (0, 0))
     pygame.display.update()

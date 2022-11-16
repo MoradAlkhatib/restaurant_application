@@ -208,3 +208,11 @@ while not done:
      
 # CLOSE THE PROGRAM
 py.quit()
+
+
+
+# with open("bills.txt", "r+") as f:
+#         pr = f.read().strip()
+#         pr_num = int(pr)
+#         pr_num += the_price
+#         f.write(str(pr_num))
